@@ -1,0 +1,286 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{medina2021giotto}{article}{}
+      \name{author}{8}{}{%
+        {{hash=0db04baaaa4ea78caf274075206b8461}{%
+           family={Tauzin},
+           familyi={T\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=785356a8e478f1b30b3af5d0bee7ec6e}{%
+           family={Lupo},
+           familyi={L\bibinitperiod},
+           given={Umberto},
+           giveni={U\bibinitperiod}}}%
+        {{hash=c501d80117f163f338c3006a620cdc8c}{%
+           family={Tunstall},
+           familyi={T\bibinitperiod},
+           given={Lewis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4cd10e46954b7b7be7d0c0dfe94d98d1}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Julian\bibnamedelima Burella},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3dbec293e44571c58a7f3f1d2d8de10d}{%
+           family={Caorsi},
+           familyi={C\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3c30835c7693baa3a7f8e7179423a1f2}{%
+           family={Medina-Mardones},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Anibal\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b18868ba3d1d99fa3c6192bcbb51e515}{%
+           family={Dassatti},
+           familyi={D\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fdfb6457a31af9c67afd61478567c478}{%
+           family={Hess},
+           familyi={H\bibinitperiod},
+           given={Kathryn},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{247c82c6da3db0b64946fb29fb5e1700}
+      \strng{fullhash}{b3b65e7f037708b64bd0edaa484dc3b4}
+      \strng{bibnamehash}{247c82c6da3db0b64946fb29fb5e1700}
+      \strng{authorbibnamehash}{247c82c6da3db0b64946fb29fb5e1700}
+      \strng{authornamehash}{247c82c6da3db0b64946fb29fb5e1700}
+      \strng{authorfullhash}{b3b65e7f037708b64bd0edaa484dc3b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{number}{39}
+      \field{title}{giotto-tda: A Topological Data Analysis Toolkit for Machine Learning and Data Exploration}
+      \field{volume}{22}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{urlraw}
+      \verb http://jmlr.org/papers/v22/20-325.html
+      \endverb
+      \verb{url}
+      \verb http://jmlr.org/papers/v22/20-325.html
+      \endverb
+    \endentry
+    \entry{lee2017quantifying}{article}{}
+      \name{author}{6}{}{%
+        {{hash=56bb7d348dde59ebcab48ce78e034935}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yongjin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a80fd0a474d73bc8ce0b4cc38719331f}{%
+           family={Barthel},
+           familyi={B\bibinitperiod},
+           given={Senja\bibnamedelima D},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=39de50e4e79bfda0601b494144791bb4}{%
+           family={D{ł}otko},
+           familyi={D\bibinitperiod},
+           given={Pawe{ł}},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d54876233de7841120e89879ff632dae}{%
+           family={Moosavi},
+           familyi={M\bibinitperiod},
+           given={S\bibnamedelima Mohamad},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fdfb6457a31af9c67afd61478567c478}{%
+           family={Hess},
+           familyi={H\bibinitperiod},
+           given={Kathryn},
+           giveni={K\bibinitperiod}}}%
+        {{hash=cf1b6974a4d7bd013e533aea5fcda164}{%
+           family={Smit},
+           familyi={S\bibinitperiod},
+           given={Berend},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{e7b8a7cffa292e73f9bcbc3abd01dea4}
+      \strng{fullhash}{82ce886dfa99559916334646c0a6f536}
+      \strng{bibnamehash}{e7b8a7cffa292e73f9bcbc3abd01dea4}
+      \strng{authorbibnamehash}{e7b8a7cffa292e73f9bcbc3abd01dea4}
+      \strng{authornamehash}{e7b8a7cffa292e73f9bcbc3abd01dea4}
+      \strng{authorfullhash}{82ce886dfa99559916334646c0a6f536}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature communications}
+      \field{number}{1}
+      \field{title}{Quantifying similarity of pore-geometry in nanoporous materials}
+      \field{volume}{8}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/ncomms15396
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/ncomms15396
+      \endverb
+    \endentry
+    \entry{medina2023fast_sq}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3c30835c7693baa3a7f8e7179423a1f2}{%
+           family={{Medina-Mardones}},
+           familyi={M\bibinitperiod},
+           given={Anibal\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c30835c7693baa3a7f8e7179423a1f2}
+      \strng{fullhash}{3c30835c7693baa3a7f8e7179423a1f2}
+      \strng{bibnamehash}{3c30835c7693baa3a7f8e7179423a1f2}
+      \strng{authorbibnamehash}{3c30835c7693baa3a7f8e7179423a1f2}
+      \strng{authornamehash}{3c30835c7693baa3a7f8e7179423a1f2}
+      \strng{authorfullhash}{3c30835c7693baa3a7f8e7179423a1f2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0925-7721}
+      \field{journaltitle}{Comput. Geom.}
+      \field{title}{New formulas for cup-{$i$} products and fast computation of {S}teenrod squares}
+      \field{volume}{109}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1016/j.comgeo.2022.101921
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.comgeo.2022.101921
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.comgeo.2022.101921
+      \endverb
+    \endentry
+    \entry{medina2022per_st}{article}{}
+      \name{author}{3}{}{%
+        {{hash=785356a8e478f1b30b3af5d0bee7ec6e}{%
+           family={{Lupo}},
+           familyi={L\bibinitperiod},
+           given={Umberto},
+           giveni={U\bibinitperiod}}}%
+        {{hash=3c30835c7693baa3a7f8e7179423a1f2}{%
+           family={{Medina-Mardones}},
+           familyi={M\bibinitperiod},
+           given={Anibal\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0db04baaaa4ea78caf274075206b8461}{%
+           family={{Tauzin}},
+           familyi={T\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{bfc359c01e50cff06c0d57d291769447}
+      \strng{fullhash}{bfc359c01e50cff06c0d57d291769447}
+      \strng{bibnamehash}{bfc359c01e50cff06c0d57d291769447}
+      \strng{authorbibnamehash}{bfc359c01e50cff06c0d57d291769447}
+      \strng{authornamehash}{bfc359c01e50cff06c0d57d291769447}
+      \strng{authorfullhash}{bfc359c01e50cff06c0d57d291769447}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Appl. Comput. Topol.}
+      \field{number}{4}
+      \field{title}{{Persistence Steenrod modules}}
+      \field{volume}{6}
+      \field{year}{2022}
+      \field{pages}{475\bibrangedash 502}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1007/s41468-022-00093-7
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s41468-022-00093-7
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s41468-022-00093-7
+      \endverb
+    \endentry
+    \entry{medina2021hyperharmonic}{article}{}
+      \name{author}{4}{}{%
+        {{hash=3c30835c7693baa3a7f8e7179423a1f2}{%
+           family={{Medina-Mardones}},
+           familyi={M\bibinitperiod},
+           given={Anibal\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=44a88ebde63fdbe9dc557594865fa888}{%
+           family={Rosas},
+           familyi={R\bibinitperiod},
+           given={Fernando\bibnamedelima E},
+           giveni={F\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=0b38a6bd2d9bd2968d57b206d24b8077}{%
+           family={Rodríguez},
+           familyi={R\bibinitperiod},
+           given={Sebastián\bibnamedelima E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8f1cd1196f3d6e4cf88b0f2cf97de079}{%
+           family={Cofré},
+           familyi={C\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{cd31b752b5c2f7e53471f84f6a490d01}
+      \strng{fullhash}{e149b3ce49df02369993275f67e649df}
+      \strng{bibnamehash}{cd31b752b5c2f7e53471f84f6a490d01}
+      \strng{authorbibnamehash}{cd31b752b5c2f7e53471f84f6a490d01}
+      \strng{authornamehash}{cd31b752b5c2f7e53471f84f6a490d01}
+      \strng{authorfullhash}{e149b3ce49df02369993275f67e649df}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Complexity}
+      \field{number}{3}
+      \field{title}{Hyperharmonic analysis for the study of high-order information-theoretic signals}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{pages}{035009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/2632-072x/abf231
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/2632-072x/abf231
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/2632-072x/abf231
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

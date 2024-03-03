@@ -1,0 +1,26 @@
+\frametitle{Persistent Steenrod squares}
+\pause
+	Given a filtered simplicial complex
+	\begin{equation}\label{eq:filtration}
+		X_0 \subset X_1 \subset \cdots \subset X_n,
+	\end{equation}
+
+	\pause\smallskip
+	For each $k$ and $d$, $\Sq^k$ induces a family of compatible linear maps
+	\[
+	\begin{tikzcd}[column sep = 15]
+		H^d(X_n; \Ftwo) \arrow[d, "\Sq^k"] \arrow[r] & \cdots \arrow[r] & H^d(X_{n-1}; \Ftwo) \arrow[d, "\Sq^k"] \arrow[r] & H^d(X_0; \Ftwo) \arrow[d, "\Sq^k"]  \\
+		H^{d+k}(X_n; \Ftwo) \arrow[r] & \cdots \arrow[r] & H^{d+k}(X_{n-1}; \Ftwo) \arrow[r] & H^{d+k}(X_0; \Ftwo).
+	\end{tikzcd}
+	\]
+
+	\pause
+	\colorit{Definition (Lupo--Med.--Tauzin)} \\
+	The \colorit{$\Sq^k$ barcode} of (1) is defined as the barcode of $\mathrm{img}\ \Sq^k$.
+
+	\pause\bigskip
+	\colorit{Theorem (Ling Zhou--Med.--M\'emoli)} \\
+	These barcodes are stable.
+
+	\pause\bigskip
+	\colorit{Computable}?

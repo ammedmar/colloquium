@@ -1,11 +1,11 @@
-%!TEX root = ../uwo.tex
+%!TEX root = ../colloquium.tex
 
 \begin{frame}[plain,noframenumbering]
 	\centering
 	\vspace*{2.6cm}
-	\Huge \colorit{Part III}
+	\Huge \colorit{Part II}
 	\vskip 20pt
-	\Large Persistence cohomology
+	\Large Steenrod barcodes
 \end{frame}
 
 \begin{frame}{Goal: introduce Steenrod barcodes}
@@ -40,126 +40,60 @@
 
 \begin{frame}{Shortcomings of Betti numbers}
 	\pause
-	Barcodes are based on the \colorit{Betti numbers} of spaces.
-
-	\pause\bigskip
-	But these \colorit{forget} much information.
-
-	\pause\bigskip
-	As graded \colorit{vector spaces}
-	\[
-	H^\bullet(\R \rP^2; \Ftwo) \cong H^\bullet(S^1 \vee S^2; \Ftwo).
-	\]
-
-	\pause
-	Similarly, as graded \colorit{abelian groups}
-	\[
-	H^\bullet(\bC \rP^2; \Z) \cong H^\bullet(S^2 \vee S^4; \Z).
-	\]
-
-	\pause
-	As graded \colorit{rings}
-	\[
-	H^\bullet(\Sigma(\bC \rP^2)) \cong H^\bullet(\Sigma(S^2 \vee S^4)),
-	\]
+	Barcodes are based on the \colorit{Betti numbers} of spaces, the $\beta_d$'s.
 
 	\pause\medskip
-	As \colorit{modules} over the \colorit{Steenrod algebra}.
+	But these \colorit{forget} much information.
+	\pause For \pcolor{example}, if $K$ is the Klein bottle
+	\begin{center}
+		\includegraphics[scale=.3]{aux/KB.pdf}
+	\end{center}
+	over the field with two elements $\Ftwo$ we have
 	\[
-	H^\bullet(\Sigma(\bC \rP^2)) \not\cong H^\bullet(\Sigma(S^2 \vee S^4)),
+	\beta_0(K) = 1, \quad \beta_1(K) = 2, \quad \beta_2(K) = 1, \quad \beta_i(K) = 0.
 	\]
+	The same as the torus $T$.
 \end{frame}
 
-\begin{frame}{Intuition}
+\begin{frame}{Steenrod squares}
 	\pause
+	For each $k$ there are natural maps
+	\[
+	\Sq^k \colon H^d(X;\Ftwo) \to H^{d+k}(X,\Ftwo).
+	\]
+
+	\pause
+	$\Sq^1$ \pcolor{distinguishes} the torus and the Klein bottle
 	\begin{figure}
 		\input{aux/torus_klein} % REMEMBER TO UNCOMMENT INSIDE
 	\end{figure}
-
-	\pause\bigskip
-	\colorit{Question}: How to compute the product and Steenrod action in practice.
 \end{frame}
 
-\begin{frame}{Cup-$i$ coproducts}
+\begin{frame}{Computing Steenrod squares}
 	\pause
-	We need \colorit{explicit} maps
-	\[
-	\Delta_i \colon \gchains(X) \to \gchains(X)^{\otimes 2}
-	\quad \text{satisfying} \quad
-	\partial \Delta_{i} = \big(1 \pm T \big) \Delta_{i-1}
-	\]
 
-	\pause\bigskip\smallskip
-	Then, the \colorit{product} is
-	\[
-	\begin{split}
-		H^\bullet(X) \ot H^\bullet(X) &\to H^\bullet(X) \\
-		[\alpha] \ot [\beta] &\mapsto \big[ (\alpha \otimes \beta) \Delta_0(-) \big]
-	\end{split}
-	\]
-
-	\smallskip\pause
-	and the $k^\th$ \colorit{Steenrod square}
-	\[
-	\begin{split}
-		\Sq^k \colon H^\bullet(X; \Ftwo) &\to H^\bullet(X; \Ftwo) \\
-		[\alpha] &\mapsto \big[ (\alpha \otimes \alpha) \Delta_{\bars{\alpha}-k}(-) \big]
-	\end{split}
-	\]
-\end{frame}
-
-\begin{frame}{A new description of Steenrod's construction}
-	\pause
-	\colorit{Definition (Med.)} \\
-	For a basis element $x \in \gchains_m(X, \Ftwo)$
-	\[
-	\textstyle \Delta_i(x) = \sum d_{U^0}(x) \otimes d_{U^1}(x)
-	\]
-	where the sum is over subsets $U = \{u_1 < \cdots < u_{n-i}\} \subseteq \{0, \dots, n\}$ and
-	\begin{equation*} \label{e:partition subsets}
-		U^0 = \{u_j \in U\mid u_j \equiv j \text{ mod } 2\}, \qquad
-		U^1 = \{u_j \in U\mid u_j \not\equiv j \text{ mod } 2\}.
-	\end{equation*}
+	\colorit{Contribution (Med.)}: A faster way to compute $\Sq^k$ for simplicial complexes.
 
 	\pause\medskip
-	\colorit{Theorem (Med.)} \\
-	All cup-$i$ constructions in the literature are equal up isomorphism:
-	\vskip -7.5pt
-	\[
-	\triangle \sim \triangle^\prime \iff \forall i \in \N, \ \triangle_i = \triangle_i^\prime \ \vee \, \triangle_i = T \triangle_i^\prime.
-	\]
-	\vskip -3pt
-	(Proven via an axiomatic characterization.)
+	\pcolor{Example}: Clocking the computation of \colorit{$\Sq^1$}, the old and new ways.
+	\vspace*{10pt}
 
-	\pause\bigskip
-	If interesting, we can discuss \colorit{connections} to
-	higher category theory, convex and toric geometry, knot theory, and condensed matter physics.
-\end{frame}
-
-\begin{frame}{Fast computation of Steenrod squares}
-	\pause
-	Comparing with SAGE: (algorithm based on EZ-AW contraction)
-
-	\smallskip\pause
-	\colorit{$\Sq^1$} on \colorit{$\Sigma^i\R P^2$} ($i^\th$ suspension of the real projective plane)
-
-	\medskip
 	\includegraphics[width=\textwidth]{aux/comp_sus_rp2.pdf}
 \end{frame}
 
-\begin{frame}[fragile]{Steenrod barcodes}
+\begin{frame}[fragile]{Persistent Steenrod squares}
 	\pause
-	Given
+	Given a filtered simplicial complex
 	\begin{equation}\label{eq:filtration}
-		X_0 \to X_1 \to \cdots \to X_n,
+		X_0 \subset X_1 \subset \cdots \subset X_n,
 	\end{equation}
 
 	\pause\smallskip
-	$\Sq^k$ induces an \colorit{endomorphism}
+	For each $k$ and $d$, $\Sq^k$ induces a family of compatible linear maps
 	\[
 	\begin{tikzcd}[column sep = 15]
-		H^\bullet(X_n; \Ftwo) \arrow[r] & \cdots \arrow[r] & H^\bullet(X_{n-1}; \Ftwo) \arrow[r] & H^\bullet(X_0; \Ftwo) \\
-		H^\bullet(X_n; \Ftwo) \arrow[u, "\Sq^k"] \arrow[r] & \cdots \arrow[r] & H^\bullet(X_{n-1}; \Ftwo) \arrow[u, "\Sq^k"] \arrow[r] & H^\bullet(X_0; \Ftwo) \arrow[u, "\Sq^k"].
+		H^d(X_n; \Ftwo) \arrow[d, "\Sq^k"] \arrow[r] & \cdots \arrow[r] & H^d(X_{n-1}; \Ftwo) \arrow[d, "\Sq^k"] \arrow[r] & H^d(X_0; \Ftwo) \arrow[d, "\Sq^k"]  \\
+		H^{d+k}(X_n; \Ftwo) \arrow[r] & \cdots \arrow[r] & H^{d+k}(X_{n-1}; \Ftwo) \arrow[r] & H^{d+k}(X_0; \Ftwo).
 	\end{tikzcd}
 	\]
 
@@ -186,37 +120,37 @@
 		\includegraphics[scale=.1]{aux/guillaume}
 	\end{center}
 
-	Developed with \textit{U. Lupo} and \textit{G.~Tauzin} from \raisebox{-1pt}{\includegraphics[scale=0.1]{aux/giotto}}.
+	Developed with \textit{U. Lupo} and \textit{G.~Tauzin} from \raisebox{-1pt}{\includegraphics[scale=0.1]{aux/giotto.png}}.
 
 	\begin{center}
 		\hyperlink{https.github.com/Steenroder/steenroder.com}{github.com/Steenroder/steenroder}
 	\end{center}
 
 	\pause\bigskip
-	\colorit{Question:} Are these finer invariants out there in the world?
+	\colorit{Question:} Are these finer invariants out there in the real world?
 \end{frame}
 
-\begin{frame}{Example: $\Sq^2$}
-	\pause
-	Filtrations of the cone on $\Sigma(S^2 \vee S^4)$ and $\Sigma \bC \rP^2$.
-
-	\pause
-	\begin{figure}
-		\centering
-		\begin{subfigure}[b]{0.49\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{aux/s2_s4.pdf}
-			\caption{$\mathrm C\,\Sigma(S^2 \vee S^4)$}
-			\label{f:s2_s4}
-		\end{subfigure}
-		\begin{subfigure}[b]{0.49\textwidth}
-			\centering
-			\includegraphics[width=\textwidth]{aux/cp2.pdf}
-			\caption{$\mathrm C\,\Sigma\,\bC\rP^2$}
-			\label{f:cp2}
-		\end{subfigure}
-	\end{figure}
-\end{frame}
+%\begin{frame}{Example: $\Sq^2$}
+%	\pause
+%	Filtrations of the cone on $\Sigma(S^2 \vee S^4)$ and $\Sigma \bC \rP^2$.
+%
+%	\pause
+%	\begin{figure}
+%		\centering
+%		\begin{subfigure}[b]{0.49\textwidth}
+%			\centering
+%			\includegraphics[width=\textwidth]{aux/s2_s4.pdf}
+%			\caption{$\mathrm C\,\Sigma(S^2 \vee S^4)$}
+%			\label{f:s2_s4}
+%		\end{subfigure}
+%		\begin{subfigure}[b]{0.49\textwidth}
+%			\centering
+%			\includegraphics[width=\textwidth]{aux/cp2.pdf}
+%			\caption{$\mathrm C\,\Sigma\,\bC\rP^2$}
+%			\label{f:cp2}
+%		\end{subfigure}
+%	\end{figure}
+%\end{frame}
 
 \begin{frame}{Space of conformations of $\mathrm{C_8H_{16}}$}
 	\pause
@@ -230,4 +164,24 @@
 	$\Sq^1$ barcode
 	\includegraphics[width=\textwidth]{aux/molecule_bot.pdf}
 	Consistent with a \colorit{Klein bottle}.
+\end{frame}
+
+\begin{frame}{Summary}
+	Persistent homology and their Steenrod generalization are principled tools for feature extraction.
+
+	\pause\medskip
+	\begin{itemize}
+		\itemsep15pt % Adjusts the space between items
+		\item They capture the primitive \pcolor{shape} of data.
+
+		\item They are relevant at \pcolor{multiple scales}.
+
+		\item Their output, barcodes, form a \pcolor{metric space}.
+
+		\item They are \pcolor{robust} to noise.
+
+		\item They are \pcolor{computable} in practice: \texttt{giotto-tda} - \texttt{steenroder}.
+
+		\item They are useful in the study \pcolor{real-world data}.
+	\end{itemize}
 \end{frame}
