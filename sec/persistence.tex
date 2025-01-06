@@ -54,8 +54,11 @@
 		\includegraphics[scale=.313]{aux/2Dbarcode_cropped.pdf}
 	\end{center}
 
-	\medskip\pause
+	\smallskip\pause
 	Longer bars correspond to features that \pcolor{persist}.
+
+	\medskip\pause
+	In ML terms: ``Hierarchical Clustering''.
 \end{frame}
 
 \begin{frame}{Points clouds and multi-scale approximation}
@@ -89,19 +92,30 @@
 	We want invariants of the underlying space/shape not of the simplicial complex approximating it.
 
 	\medskip
-	\colorit{E.g.} Alternative point cloud samples should give the same or ``similar" invariants.
+	\colorit{i.e.} Different samples should give ``the same" invariants.
 
-	\pause\medskip
-	\colorit{Bad ideas}: count number of simplices, measure incidence angles, record volumes,...
+	\pause\bigskip
+	\colorit{A bad idea}: Count number of simplices
+	\begin{center}
+		$\#n$-simplices
+	\end{center}
+%
+%	Measure incidence angles,
+%
+%	Record volumes,
+%
+%	\qquad $\vdots$
+%
+%	\medskip
+%	All of these depend on the simplicial complex.
 
-	\medskip
-	All of these depend on the simplicial complex.
-
-	\pause\medskip
-	\colorit{Basic example}: (Euler characteristic)
+	\pause\bigskip
+	\colorit{A good idea}: Euler characteristic
 	\[
-	\chi = \# vertices - \# edges + \dots + (-1)^n \#(n\text{-}simplices).
+	\chi = \sum_i (-1)^i \#i\text{-}simplices
 	\]
+	\pause\medskip
+	Invariant under subdivision.
 \end{frame}
 
 \begin{frame}{Finer features: Homology}
@@ -112,19 +126,56 @@
 	\end{center}
 	the \pcolor{homology} construction produces $\forall d \in \N$ a vector space $H_d(X)$ whose dimension $\beta_d(X)$ counts the ``$d$-dim'l components'' or ``$d$-cavities" of $X$.
 
-	\pause\medskip
+	\pause\bigskip
 	\pcolor{Remark} $\beta_0$ is the usual number of connected component.
 
-	\pause\smallskip
-	\pcolor{Remark} $\beta_0 - \beta_1 + \dots + (-1)^n \beta_n$ is $\chi$.
+	\pause\bigskip
+	\pcolor{Remark} $\chi = \sum_i (-1)^i \beta_i$.
+\end{frame}
+
+\begin{frame}{A peek under the mod 2 hood}
+
+	\pause
+	\colorit{$\bullet$} An \colorit{$d$-cycle} is a collection of $d$-simplices with no boundary.
 
 	\pause\medskip
-	\pcolor{Example} if $T$ is the above space
+	\colorit{e.g.} vertices, loops, a triangulated torus, ...
+
+	\pause\bigskip
+	\colorit{$\bullet$} Two $d$-cycles are in the same \colorit{homology class} if they form the boundary of a collection of $(d+1)$-simplices.
+
+	\pause\medskip
+	\colorit{e.g.} vertices in the same component, loops in cylinder, a filled in torus, ...
+
+	\pause\bigskip
+	\colorit{Definition.} $H_d(X)$ is the vector space with basis the $d$-homology classes.
+
+	\pause\bigskip
+	\pcolor{Example.} \quad $\beta_0(T) = 1, \quad \beta_1(T) = 2, \quad \beta_2(T) = 1, \quad \beta_i(T) = 0$.
+	\begin{center}
+		\includegraphics[scale=.1]{aux/torus_triangulated}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Hierarchical clustering revisited}
+	\pause
+
+	Given a multi-scale approximation
 	\[
-	\beta_0(T) = 1, \quad \beta_1(T) = 2, \quad \beta_2(T) = 1, \quad \beta_i(T) = 0.
+	X_{0} \subset X_{1} \subset\dots\subset X_{n}
 	\]
-	It is connected, has two independent loops, \\
-	and one 2-dimensional cavity.
+	the $H_0$ construction gives a family of vector spaces and linear projections\vspace*{-5pt}
+	\[
+	H_0(X_0) \to H_0(X_1) \to\dots\to H_0(X_n).
+	\]
+
+	\pause\medskip
+	The way the $\beta_0$'s fit together can be represented by a \colorit{barcode}
+	\pause\smallskip
+	\begin{center}
+		\includegraphics[scale=.7]{aux/vietoris-rips}
+		\includegraphics[scale=.7]{aux/betti0}
+	\end{center}
 \end{frame}
 
 \begin{frame}{Persistence homology}
@@ -144,7 +195,7 @@
 	\pause\smallskip
 	\begin{center}
 		\includegraphics[scale=.7]{aux/vietoris-rips}
-		\includegraphics[scale=.6]{aux/betti}
+		\includegraphics[scale=.7]{aux/betti}
 	\end{center}
 
 	\begin{minipage}{.5\textwidth}
@@ -153,7 +204,7 @@
 	\end{minipage}%
 	\hspace*{1cm}
 	\begin{minipage}{.3\textwidth}
-		\begin{tikzpicture}[scale=.5]
+		\begin{tikzpicture}[scale=.45]
 			% Draw square
 			\draw (0,0) rectangle (4,4);
 			% Draw diagonal
@@ -169,7 +220,11 @@
 
 \begin{frame}{Why are barcodes useful?}
 	\pause\smallskip
-	1. \colorit{Stability}: The passage from point clouds to barcodes preserves distances.
+	1. \colorit{Stability}: The passage from point clouds to barcodes satisfies
+
+	\[
+	d_{b}(\cB_X, \cB_Y) \leq d_{GH}(X,Y)
+	\]
 
 	\pause\smallskip
 	\begin{minipage}{.6\textwidth}
@@ -192,7 +247,7 @@
 
 	\pause\smallskip
 	\begin{minipage}{.5\textwidth}
-		Point cloud distance is \pcolor{Bottleneck}:
+		Barcode distance is \pcolor{Bottleneck}:
 	\end{minipage}
 	\hspace*{0pt}
 	\begin{minipage}{.3\textwidth}
@@ -215,11 +270,6 @@
 			\fill[blue] (.6,1.4) circle (2pt);
 		\end{tikzpicture}
 	\end{minipage}
-
-	\pause\bigskip
-	\[
-	d_{GH}(X,Y) \leq d_{b}(\cB_X, \cB_Y)
-	\]
 
 	\pause\medskip
 	2. \colorit{Computability}: Based on matrix reduction algorithms, it complexity is
@@ -248,9 +298,12 @@
 	\includegraphics[scale=.6]{aux/nanoporous}
 \end{frame}
 
-\begin{frame}{Where to find these tools? \texttt{giotto-tda}}
+\begin{frame}[fragile]{Where to find these tools?}
 	\pause
+	\raisebox{-1pt}{\includegraphics[scale=0.1]{aux/giotto.png}}:
 	Integration of persistence algorithms into \texttt{scikit-learn}.
-	\vskip 10pt
-	\includegraphics[scale=.31]{aux/giotto}
+	\vspace*{-5pt}
+	\begin{center}
+		\includegraphics[scale=.59,angle=-90]{aux/giotto-tda_workflow}
+	\end{center}
 \end{frame}

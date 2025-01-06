@@ -4,20 +4,64 @@
 	\centering
 	\vspace*{2.6cm}
 	\Huge{\colorit{Part III}}\\
-	{\large(time-permitting)}
+%	{\large(time-permitting)}
 	\vskip 20pt
 	\Large{Hyperharmonic analysis}
 \end{frame}
 
-\begin{frame}{Complex systems}
+\begin{frame}{Graph Laplacian}
+	\pause
+	Given a function $\phi$ on the vertices of a weighted graph
+	\[
+	\Delta\phi(v) = \sum_{[u,v]} \gamma_{[u,v]}(\phi(v) - \phi(u))
+	\]
+	where $\gamma_{[u,v]}$ is the weight of $[u,v]$.
 
-	\includegraphics[scale=.23]{aux/fishes}
+	\pause\bigskip
+	\colorit{Remark:} It is an approximation to the (smooth) Laplace operator.
 
-	\bigskip
-	\textit{The whole is greater than the sum of its parts.}
+	\pause\bigskip
+	This an other versions are used for:
 
-	\pause\vskip 10pt
-	\colorit{Question}: How to \colorit{quantify} this slogan?
+	\smallskip
+	\colorit{Clustering analysis},
+
+	\colorit{Dimensionality reduction},
+
+	\colorit{Random walk analysis},
+
+	\colorit{Image and signal processing},
+
+	\vspace*{-3pt}
+	$\qquad\qquad \colorit{\vdots}$
+
+	\pause\medskip
+
+	Is there an analogue for \colorit{simplicial complexes}?
+\end{frame}
+
+\begin{frame}{Discrete Laplacian}
+	\pause
+	Given a weighted simplicial complex and a function $\phi$ on its $n$-simplices
+	\[
+	\Delta_n\phi = (\bd_{n+1} \delta_n + \delta_{n-1} \bd_n)\phi,
+	\]
+	where $\bd$ is the boundary operator and $\delta$ its adjoint with respect to the inner product defined by the weights.
+
+	\pause\bigskip
+	\colorit{Remark:} It is an approximation to the (smooth) Laplace--Beltrami operator of Riemannian geometry.
+
+	\pause\bigskip
+	\colorit{Remark:} Connection with topology
+	\[
+	\dim(\ker \Delta_n) = \beta_n.
+	\]
+
+	\pause\medskip
+	We will use it for signal processing.
+
+	\pause\medskip
+	First, let us introduce examples of functions on higher simplices.
 \end{frame}
 
 \begin{frame}{Information signals}
@@ -45,57 +89,29 @@
 		\vspace*{-20pt}\pause\item \colorit{Analogues} for higher cardinality subsets.
 	\end{itemize}
 
-	\vskip 10pt
-	\pause
+	\pause\smallskip
 
 	\colorit{Problem:} Number of subsets \colorit{grows exponentially} with $N$.
-\end{frame}
 
-\begin{frame}{Signals on a simplex}
-
-	\begin{center}
-		\includegraphics[scale=.35]{aux/3simplex}
-	\end{center}
-
-	\pause
-	Weighted with \colorit{structural} information. (e.g. EEG node positions)
-
-	\pause\medskip
-	Signals are the same as $\R$-valued functions on simplices. E.g.
-
-	\qquad Entropy : 0-simplices \\
-	\qquad Mutual information : 1-simplices \\
-	\qquad Interaction information : 2-simplices \\
-	\qquad Higher order signals : $d$-simplices
-%	\hspace*{2cm}$\vdots$
-
-%	\pause\medskip
-%	\colorit{Boundary} $\partial_n$ (incidence matrix) and \colorit{coboundary} $\delta_n$ (adjoint operator),\\
-%	\smallskip
-%	Both \colorit{act} on signals.
+	\smallskip
+	\colorit{Question:} Can we compress these signals?
 \end{frame}
 
 \begin{frame}{Hyperharmonic analysis}
 	\pause
-	\colorit{Analogy:} Listen to a few harmonics to tell a guitar and a~piano apart.
+	\colorit{Fourier basis:} Eigenvectors of the discrete Laplacian.
 
 	\pause\bigskip
 	\colorit{Contribution (Med.--Rosas--Rodr\'iguez--Cofr\'e)}\\
-	A principled method to compress high-order information signals based on Fourier analysis and combinatorial topology.
+	Compression of higher-order information signals using the Fourier basis.
 
 	\pause\bigskip
-	\colorit{Fourier basis:} Eigenvectors of the \colorit{discrete Laplacian}
-	\[
-	\displaystyle{L_n = \partial_{n+1} \delta_n + \delta_{n-1} \partial_{n}}.
-	\]
+	\colorit{Analogy:} Listen to a few harmonics to tell a guitar and a~piano apart.
 
-	\pause
-	Connection with topology: $\dim(\ker L_n) = \beta_n$.
-
-	\pause\medskip
+	\pause\bigskip
 	How to measure \colorit{compressibility}?
 
-	\pause\medskip
+	\pause\bigskip
 	Give signal $\alpha$, let $\{\alpha_i\}$ be its coeff's in a basis with $\alpha_1^2 \geq \alpha_2^2 \geq \cdots$
 	\begin{equation*}
 		\text{EV}_{\alpha}(k) = \frac{ \alpha_k^2}{{\displaystyle \sum_{i} \alpha_i^2}}
@@ -109,9 +125,25 @@
 	Music as a probability distribution.
 
 	\pause\vskip 5pt
-	We analyzed two high-order information signals across four dimensions:% O-info and S-info.
+	We analyzed two high-order information signals across four dimensions:
 
 	\pause\vskip 7pt
 	\hspace*{-15pt}
 	\includegraphics[scale=.096]{aux/hyperharmonic}
+\end{frame}
+
+\begin{frame}{Summary: Signal processing on hypergraphs}
+	\colorit{Case study:} Compressing high-order information signals.
+
+	\pause\medskip
+	\begin{itemize}
+		\itemsep15pt % Adjusts the space between items
+		\item Higher order information signals capture interactions between multiple nodes of a system.
+
+		\item The dimension of these signals grows exponentially with the number of nodes.
+
+		\item The eigenvectors of the discrete Laplacian provide a new basis.
+
+		\item A few Fourier vectors carry most of the signal.
+	\end{itemize}
 \end{frame}

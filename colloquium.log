@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  22 FEB 2024 14:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.14)  5 JAN 2025 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**colloquium.tex --shell-escape colloquium.tex
+**colloquium.tex
 (./colloquium.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
@@ -1289,119 +1289,109 @@ Package pdftex.def Info: aux/mackay.jpg  used on input line 10.
 (pdftex.def)             Requested size: 364.19536pt x 273.14813pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./aux/mackay.jpg>])
-(./sec/ukraine.tex
-<aux/ukraine.pdf, id=22, 372.64218pt x 520.94624pt>
-File: aux/ukraine.pdf Graphic file (type pdf)
-<use aux/ukraine.pdf>
-Package pdftex.def Info: aux/ukraine.pdf  used on input line 6.
-(pdftex.def)             Requested size: 55.8939pt x 78.13857pt.
- [2
-
- <./aux/ukraine.pdf>]) (./sec/persistence.tex [3
-
-]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-5.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./aux/mackay.jpg>]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+3.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-5.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+3.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-35.
+23.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-35.
+23.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 35.
+(Font)              <7> on input line 23.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 35.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 35.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(Font)              <5> on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+bbold on input line 3
-5.
+LaTeX Font Info:    Trying to load font information for U+bbold on input line 2
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/bbold/Ubbold.fd)
-<aux/point_cloud_cropped.png, id=41, 504.88625pt x 185.69376pt>
-File: aux/point_cloud_cropped.png Graphic file (type png)
-<use aux/point_cloud_cropped.png>
-Package pdftex.def Info: aux/point_cloud_cropped.png  used on input line 35.
-(pdftex.def)             Requested size: 176.71283pt x 64.99377pt.
-<aux/network_cropped.png, id=43, 1126.2075pt x 770.88pt>
-File: aux/network_cropped.png Graphic file (type png)
-<use aux/network_cropped.png>
-Package pdftex.def Info: aux/network_cropped.png  used on input line 35.
-(pdftex.def)             Requested size: 101.3543pt x 69.3762pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 35.
+(epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
-<aux/logo-eps-converted-to.pdf, id=44, 320.19624pt x 340.27126pt>
+<aux/logo-eps-converted-to.pdf, id=22, 320.19624pt x 340.27126pt>
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 35.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 23.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [4
+ [2
 
- <./aux/logo-eps-converted-to.pdf> <./aux/point_cloud_cropped.png> <./aux/netwo
-rk_cropped.png>]
-File: aux/point_cloud_cropped.png Graphic file (type png)
-<use aux/point_cloud_cropped.png>
-Package pdftex.def Info: aux/point_cloud_cropped.png  used on input line 35.
-(pdftex.def)             Requested size: 176.71283pt x 64.99377pt.
-File: aux/network_cropped.png Graphic file (type png)
-<use aux/network_cropped.png>
-Package pdftex.def Info: aux/network_cropped.png  used on input line 35.
-(pdftex.def)             Requested size: 101.3543pt x 69.3762pt.
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 35.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 35.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ <./aux/logo-eps-converted-to.pdf>]) (./sec/ukraine.tex
+<aux/ukraine.pdf, id=34, 372.64218pt x 520.94624pt>
+File: aux/ukraine.pdf Graphic file (type pdf)
+<use aux/ukraine.pdf>
+Package pdftex.def Info: aux/ukraine.pdf  used on input line 6.
+(pdftex.def)             Requested size: 55.8939pt x 78.13857pt.
+ [3
 
-[5
+ <./aux/ukraine.pdf>])
+(./sec/persistence.tex [4
 
 ]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 35.
+<aux/point_cloud_cropped.png, id=52, 504.88625pt x 185.69376pt>
+File: aux/point_cloud_cropped.png Graphic file (type png)
+<use aux/point_cloud_cropped.png>
+Package pdftex.def Info: aux/point_cloud_cropped.png  used on input line 35.
+(pdftex.def)             Requested size: 176.71283pt x 64.99377pt.
+<aux/network_cropped.png, id=54, 1126.2075pt x 770.88pt>
+File: aux/network_cropped.png Graphic file (type png)
+<use aux/network_cropped.png>
+Package pdftex.def Info: aux/network_cropped.png  used on input line 35.
+(pdftex.def)             Requested size: 101.3543pt x 69.3762pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 35.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 35.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [5
+
+ <./aux/point_cloud_cropped.png> <./aux/network_cropped.png>]
 File: aux/point_cloud_cropped.png Graphic file (type png)
 <use aux/point_cloud_cropped.png>
 Package pdftex.def Info: aux/point_cloud_cropped.png  used on input line 35.
@@ -1411,10 +1401,10 @@ File: aux/network_cropped.png Graphic file (type png)
 Package pdftex.def Info: aux/network_cropped.png  used on input line 35.
 (pdftex.def)             Requested size: 101.3543pt x 69.3762pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -1436,10 +1426,10 @@ File: aux/network_cropped.png Graphic file (type png)
 Package pdftex.def Info: aux/network_cropped.png  used on input line 35.
 (pdftex.def)             Requested size: 101.3543pt x 69.3762pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -1461,10 +1451,10 @@ File: aux/network_cropped.png Graphic file (type png)
 Package pdftex.def Info: aux/network_cropped.png  used on input line 35.
 (pdftex.def)             Requested size: 101.3543pt x 69.3762pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -1486,10 +1476,10 @@ File: aux/network_cropped.png Graphic file (type png)
 Package pdftex.def Info: aux/network_cropped.png  used on input line 35.
 (pdftex.def)             Requested size: 101.3543pt x 69.3762pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -1511,10 +1501,10 @@ File: aux/network_cropped.png Graphic file (type png)
 Package pdftex.def Info: aux/network_cropped.png  used on input line 35.
 (pdftex.def)             Requested size: 101.3543pt x 69.3762pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -1527,31 +1517,56 @@ Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 35.
  [10
 
 ]
-<aux/2Dcloud_cropped.pdf, id=93, 340.3917pt x 276.43274pt>
-File: aux/2Dcloud_cropped.pdf Graphic file (type pdf)
-<use aux/2Dcloud_cropped.pdf>
-Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 59.
-(pdftex.def)             Requested size: 85.0977pt x 69.108pt.
-<aux/2Dbarcode_cropped.pdf, id=94, 340.93373pt x 221.14621pt>
-File: aux/2Dbarcode_cropped.pdf Graphic file (type pdf)
-<use aux/2Dbarcode_cropped.pdf>
-Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 59.
-(pdftex.def)             Requested size: 106.7132pt x 69.21936pt.
+File: aux/point_cloud_cropped.png Graphic file (type png)
+<use aux/point_cloud_cropped.png>
+Package pdftex.def Info: aux/point_cloud_cropped.png  used on input line 35.
+(pdftex.def)             Requested size: 176.71283pt x 64.99377pt.
+File: aux/network_cropped.png Graphic file (type png)
+<use aux/network_cropped.png>
+Package pdftex.def Info: aux/network_cropped.png  used on input line 35.
+(pdftex.def)             Requested size: 101.3543pt x 69.3762pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 35.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 59.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 35.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [11
+
+]
+<aux/2Dcloud_cropped.pdf, id=98, 340.3917pt x 276.43274pt>
+File: aux/2Dcloud_cropped.pdf Graphic file (type pdf)
+<use aux/2Dcloud_cropped.pdf>
+Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 62.
+(pdftex.def)             Requested size: 85.0977pt x 69.108pt.
+<aux/2Dbarcode_cropped.pdf, id=99, 340.93373pt x 221.14621pt>
+File: aux/2Dbarcode_cropped.pdf Graphic file (type pdf)
+<use aux/2Dbarcode_cropped.pdf>
+Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 62.
+(pdftex.def)             Requested size: 106.7132pt x 69.21936pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 62.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 62.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [12
 
  <./aux/2Dcloud_cropped.pdf> <./aux/2Dbarcode_cropped.pdf
 
@@ -1560,369 +1575,346 @@ sion: multiple pdfs with page group included in a single page
 >]
 File: aux/2Dcloud_cropped.pdf Graphic file (type pdf)
 <use aux/2Dcloud_cropped.pdf>
-Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 59.
+Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 62.
 (pdftex.def)             Requested size: 85.0977pt x 69.108pt.
 File: aux/2Dbarcode_cropped.pdf Graphic file (type pdf)
 <use aux/2Dbarcode_cropped.pdf>
-Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 59.
+Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 62.
 (pdftex.def)             Requested size: 106.7132pt x 69.21936pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 59.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [12
-
-]
-File: aux/2Dcloud_cropped.pdf Graphic file (type pdf)
-<use aux/2Dcloud_cropped.pdf>
-Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 59.
-(pdftex.def)             Requested size: 85.0977pt x 69.108pt.
-File: aux/2Dbarcode_cropped.pdf Graphic file (type pdf)
-<use aux/2Dbarcode_cropped.pdf>
-Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 59.
-(pdftex.def)             Requested size: 106.7132pt x 69.21936pt.
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 59.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 59.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 62.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [13
 
 ]
 File: aux/2Dcloud_cropped.pdf Graphic file (type pdf)
 <use aux/2Dcloud_cropped.pdf>
-Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 59.
+Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 62.
 (pdftex.def)             Requested size: 85.0977pt x 69.108pt.
 File: aux/2Dbarcode_cropped.pdf Graphic file (type pdf)
 <use aux/2Dbarcode_cropped.pdf>
-Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 59.
+Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 62.
 (pdftex.def)             Requested size: 106.7132pt x 69.21936pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 59.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 62.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [14
 
 ]
 File: aux/2Dcloud_cropped.pdf Graphic file (type pdf)
 <use aux/2Dcloud_cropped.pdf>
-Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 59.
+Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 62.
 (pdftex.def)             Requested size: 85.0977pt x 69.108pt.
 File: aux/2Dbarcode_cropped.pdf Graphic file (type pdf)
 <use aux/2Dbarcode_cropped.pdf>
-Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 59.
+Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 62.
 (pdftex.def)             Requested size: 106.7132pt x 69.21936pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 59.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 62.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [15
 
 ]
 File: aux/2Dcloud_cropped.pdf Graphic file (type pdf)
 <use aux/2Dcloud_cropped.pdf>
-Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 59.
+Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 62.
 (pdftex.def)             Requested size: 85.0977pt x 69.108pt.
 File: aux/2Dbarcode_cropped.pdf Graphic file (type pdf)
 <use aux/2Dbarcode_cropped.pdf>
-Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 59.
+Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 62.
 (pdftex.def)             Requested size: 106.7132pt x 69.21936pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 59.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 59.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 62.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [16
 
 ]
-<aux/torus_triangulated.png, id=150, 642.4pt x 634.37pt>
-File: aux/torus_triangulated.png Graphic file (type png)
-<use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 85.
-(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
+File: aux/2Dcloud_cropped.pdf Graphic file (type pdf)
+<use aux/2Dcloud_cropped.pdf>
+Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 62.
+(pdftex.def)             Requested size: 85.0977pt x 69.108pt.
+File: aux/2Dbarcode_cropped.pdf Graphic file (type pdf)
+<use aux/2Dbarcode_cropped.pdf>
+Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 62.
+(pdftex.def)             Requested size: 106.7132pt x 69.21936pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 85.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 62.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [17
 
- <./aux/torus_triangulated.png>]
-File: aux/torus_triangulated.png Graphic file (type png)
-<use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 85.
-(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
+]
+File: aux/2Dcloud_cropped.pdf Graphic file (type pdf)
+<use aux/2Dcloud_cropped.pdf>
+Package pdftex.def Info: aux/2Dcloud_cropped.pdf  used on input line 62.
+(pdftex.def)             Requested size: 85.0977pt x 69.108pt.
+File: aux/2Dbarcode_cropped.pdf Graphic file (type pdf)
+<use aux/2Dbarcode_cropped.pdf>
+Package pdftex.def Info: aux/2Dbarcode_cropped.pdf  used on input line 62.
+(pdftex.def)             Requested size: 106.7132pt x 69.21936pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 85.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 62.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [18
 
 ]
+<aux/torus_triangulated.png, id=160, 642.4pt x 634.37pt>
 File: aux/torus_triangulated.png Graphic file (type png)
 <use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 85.
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 88.
 (pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 85.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [19
 
+ <./aux/torus_triangulated.png>]
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 88.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 88.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 88.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [20
+
 ]
 File: aux/torus_triangulated.png Graphic file (type png)
 <use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 85.
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 88.
 (pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 85.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
 
-[20
+[21
 
 ]
 File: aux/torus_triangulated.png Graphic file (type png)
 <use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 85.
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 88.
 (pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 85.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [21
-
-]
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
-
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [22
 
 ]
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 88.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 88.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
-
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 88.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [23
 
 ]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 119.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [24
 
 ]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 119.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [25
 
 ]
-File: aux/torus_triangulated.png Graphic file (type png)
-<use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 128.
-(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 128.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 119.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [26
 
 ]
-File: aux/torus_triangulated.png Graphic file (type png)
-<use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 128.
-(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 128.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 119.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [27
 
 ]
-File: aux/torus_triangulated.png Graphic file (type png)
-<use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 128.
-(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 128.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 119.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [28
@@ -1930,21 +1922,21 @@ Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 128.
 ]
 File: aux/torus_triangulated.png Graphic file (type png)
 <use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 128.
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 134.
 (pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 128.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 134.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [29
@@ -1952,281 +1944,570 @@ Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 128.
 ]
 File: aux/torus_triangulated.png Graphic file (type png)
 <use aux/torus_triangulated.png>
-Package pdftex.def Info: aux/torus_triangulated.png  used on input line 128.
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 134.
 (pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 128.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 128.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 134.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [30
 
 ]
-
-pdfTeX warning: /usr/bin/pdflatex (file ./aux/vietoris-rips.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<aux/vietoris-rips.pdf, id=226, 417.96149pt x 56.9056pt>
-File: aux/vietoris-rips.pdf Graphic file (type pdf)
-<use aux/vietoris-rips.pdf>
-Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 168.
-(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./aux/betti.pdf): PDF inclusion: found 
-PDF version <1.7>, but at most version <1.5> allowed
-<aux/betti.pdf, id=227, 395.39519pt x 42.18861pt>
-File: aux/betti.pdf Graphic file (type pdf)
-<use aux/betti.pdf>
-Package pdftex.def Info: aux/betti.pdf  used on input line 168.
-(pdftex.def)             Requested size: 237.23894pt x 25.31334pt.
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 134.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 168.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 134.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
-[31
+ [31
 
- <./aux/vietoris-rips.pdf> <./aux/betti.pdf>]
-File: aux/vietoris-rips.pdf Graphic file (type pdf)
-<use aux/vietoris-rips.pdf>
-Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 168.
-(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
-File: aux/betti.pdf Graphic file (type pdf)
-<use aux/betti.pdf>
-Package pdftex.def Info: aux/betti.pdf  used on input line 168.
-(pdftex.def)             Requested size: 237.23894pt x 25.31334pt.
+]
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 134.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 168.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 134.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [32
 
 ]
-File: aux/vietoris-rips.pdf Graphic file (type pdf)
-<use aux/vietoris-rips.pdf>
-Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 168.
-(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
-File: aux/betti.pdf Graphic file (type pdf)
-<use aux/betti.pdf>
-Package pdftex.def Info: aux/betti.pdf  used on input line 168.
-(pdftex.def)             Requested size: 237.23894pt x 25.31334pt.
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 158.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 168.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 158.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [33
 
 ]
-File: aux/vietoris-rips.pdf Graphic file (type pdf)
-<use aux/vietoris-rips.pdf>
-Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 168.
-(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
-File: aux/betti.pdf Graphic file (type pdf)
-<use aux/betti.pdf>
-Package pdftex.def Info: aux/betti.pdf  used on input line 168.
-(pdftex.def)             Requested size: 237.23894pt x 25.31334pt.
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 158.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 168.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 158.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [34
 
 ]
-File: aux/vietoris-rips.pdf Graphic file (type pdf)
-<use aux/vietoris-rips.pdf>
-Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 168.
-(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
-File: aux/betti.pdf Graphic file (type pdf)
-<use aux/betti.pdf>
-Package pdftex.def Info: aux/betti.pdf  used on input line 168.
-(pdftex.def)             Requested size: 237.23894pt x 25.31334pt.
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 158.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 168.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 168.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 158.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [35
 
 ]
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 158.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 229.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 229.
-
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [36
-
-]
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 229.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 229.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 158.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
 
-[37
+[36
 
 ]
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 158.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 229.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 229.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 158.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [37
+
+]
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 158.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 158.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 158.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [38
 
 ]
+File: aux/torus_triangulated.png Graphic file (type png)
+<use aux/torus_triangulated.png>
+Package pdftex.def Info: aux/torus_triangulated.png  used on input line 158.
+(pdftex.def)             Requested size: 64.24376pt x 63.4407pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 229.
+(epstopdf)             \includegraphics on input line 158.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 229.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 158.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [39
 
 ]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./aux/vietoris-rips.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<aux/vietoris-rips.pdf, id=274, 417.96149pt x 56.9056pt>
+File: aux/vietoris-rips.pdf Graphic file (type pdf)
+<use aux/vietoris-rips.pdf>
+Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 179.
+(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./aux/betti0.pdf): PDF inclusion: found
+ PDF version <1.7>, but at most version <1.5> allowed
+<aux/betti0.pdf, id=275, 393.91266pt x 28.66609pt>
+File: aux/betti0.pdf Graphic file (type pdf)
+<use aux/betti0.pdf>
+Package pdftex.def Info: aux/betti0.pdf  used on input line 179.
+(pdftex.def)             Requested size: 275.73698pt x 20.0661pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 229.
+(epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 229.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 179.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [40
+[40
 
-]
+ <./aux/vietoris-rips.pdf> <./aux/betti0.pdf>]
+File: aux/vietoris-rips.pdf Graphic file (type pdf)
+<use aux/vietoris-rips.pdf>
+Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 179.
+(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
+File: aux/betti0.pdf Graphic file (type pdf)
+<use aux/betti0.pdf>
+Package pdftex.def Info: aux/betti0.pdf  used on input line 179.
+(pdftex.def)             Requested size: 275.73698pt x 20.0661pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 229.
+(epstopdf)             \includegraphics on input line 179.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 229.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 179.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [41
 
 ]
-<aux/real_material.jpg, id=666, 526.96875pt x 230.8625pt>
+File: aux/vietoris-rips.pdf Graphic file (type pdf)
+<use aux/vietoris-rips.pdf>
+Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 179.
+(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
+File: aux/betti0.pdf Graphic file (type pdf)
+<use aux/betti0.pdf>
+Package pdftex.def Info: aux/betti0.pdf  used on input line 179.
+(pdftex.def)             Requested size: 275.73698pt x 20.0661pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 179.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [42
+
+]
+File: aux/vietoris-rips.pdf Graphic file (type pdf)
+<use aux/vietoris-rips.pdf>
+Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 179.
+(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
+File: aux/betti0.pdf Graphic file (type pdf)
+<use aux/betti0.pdf>
+Package pdftex.def Info: aux/betti0.pdf  used on input line 179.
+(pdftex.def)             Requested size: 275.73698pt x 20.0661pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 179.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 179.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [43
+
+]
+File: aux/vietoris-rips.pdf Graphic file (type pdf)
+<use aux/vietoris-rips.pdf>
+Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 219.
+(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./aux/betti.pdf): PDF inclusion: found 
+PDF version <1.7>, but at most version <1.5> allowed
+<aux/betti.pdf, id=680, 395.39519pt x 42.18861pt>
+File: aux/betti.pdf Graphic file (type pdf)
+<use aux/betti.pdf>
+Package pdftex.def Info: aux/betti.pdf  used on input line 219.
+(pdftex.def)             Requested size: 276.77475pt x 29.53181pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 219.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+[44
+
+ <./aux/betti.pdf>]
+File: aux/vietoris-rips.pdf Graphic file (type pdf)
+<use aux/vietoris-rips.pdf>
+Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 219.
+(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
+File: aux/betti.pdf Graphic file (type pdf)
+<use aux/betti.pdf>
+Package pdftex.def Info: aux/betti.pdf  used on input line 219.
+(pdftex.def)             Requested size: 276.77475pt x 29.53181pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 219.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [45
+
+]
+File: aux/vietoris-rips.pdf Graphic file (type pdf)
+<use aux/vietoris-rips.pdf>
+Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 219.
+(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
+File: aux/betti.pdf Graphic file (type pdf)
+<use aux/betti.pdf>
+Package pdftex.def Info: aux/betti.pdf  used on input line 219.
+(pdftex.def)             Requested size: 276.77475pt x 29.53181pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 219.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [46
+
+]
+File: aux/vietoris-rips.pdf Graphic file (type pdf)
+<use aux/vietoris-rips.pdf>
+Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 219.
+(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
+File: aux/betti.pdf Graphic file (type pdf)
+<use aux/betti.pdf>
+Package pdftex.def Info: aux/betti.pdf  used on input line 219.
+(pdftex.def)             Requested size: 276.77475pt x 29.53181pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 219.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [47
+
+]
+File: aux/vietoris-rips.pdf Graphic file (type pdf)
+<use aux/vietoris-rips.pdf>
+Package pdftex.def Info: aux/vietoris-rips.pdf  used on input line 219.
+(pdftex.def)             Requested size: 292.57104pt x 39.83363pt.
+File: aux/betti.pdf Graphic file (type pdf)
+<use aux/betti.pdf>
+Package pdftex.def Info: aux/betti.pdf  used on input line 219.
+(pdftex.def)             Requested size: 276.77475pt x 29.53181pt.
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 219.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [48
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 279.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [49
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 279.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [50
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 279.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [51
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 279.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [52
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 279.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [53
+
+]
+<aux/real_material.jpg, id=923, 526.96875pt x 230.8625pt>
 File: aux/real_material.jpg Graphic file (type jpg)
 <use aux/real_material.jpg>
-Package pdftex.def Info: aux/real_material.jpg  used on input line 249.
+Package pdftex.def Info: aux/real_material.jpg  used on input line 299.
 (pdftex.def)             Requested size: 147.55023pt x 64.64105pt.
 
-Overfull \hbox (33.73921pt too wide) in paragraph at lines 249--249
+Overfull \hbox (33.73921pt too wide) in paragraph at lines 299--299
 [][]  
  []
 
@@ -2234,145 +2515,164 @@ Overfull \hbox (33.73921pt too wide) in paragraph at lines 249--249
 
 pdfTeX warning: /usr/bin/pdflatex (file ./aux/nanoporous.pdf): PDF inclusion: f
 ound PDF version <1.6>, but at most version <1.5> allowed
-<aux/nanoporous.pdf, id=667, 311.01794pt x 235.47171pt>
+<aux/nanoporous.pdf, id=924, 311.01794pt x 235.47171pt>
 File: aux/nanoporous.pdf Graphic file (type pdf)
 <use aux/nanoporous.pdf>
-Package pdftex.def Info: aux/nanoporous.pdf  used on input line 249.
+Package pdftex.def Info: aux/nanoporous.pdf  used on input line 299.
 (pdftex.def)             Requested size: 186.6122pt x 141.2841pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 249.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 299.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
-[42
+[54
 
  <./aux/nanoporous.pdf> <./aux/real_material.jpg>]
 File: aux/real_material.jpg Graphic file (type jpg)
 <use aux/real_material.jpg>
-Package pdftex.def Info: aux/real_material.jpg  used on input line 249.
+Package pdftex.def Info: aux/real_material.jpg  used on input line 299.
 (pdftex.def)             Requested size: 147.55023pt x 64.64105pt.
 
-Overfull \hbox (33.73921pt too wide) in paragraph at lines 249--249
+Overfull \hbox (33.73921pt too wide) in paragraph at lines 299--299
 [][]  
  []
 
 File: aux/nanoporous.pdf Graphic file (type pdf)
 <use aux/nanoporous.pdf>
-Package pdftex.def Info: aux/nanoporous.pdf  used on input line 249.
+Package pdftex.def Info: aux/nanoporous.pdf  used on input line 299.
 (pdftex.def)             Requested size: 186.6122pt x 141.2841pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 249.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 299.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
-[43
+[55
 
 ]
 File: aux/real_material.jpg Graphic file (type jpg)
 <use aux/real_material.jpg>
-Package pdftex.def Info: aux/real_material.jpg  used on input line 249.
+Package pdftex.def Info: aux/real_material.jpg  used on input line 299.
 (pdftex.def)             Requested size: 147.55023pt x 64.64105pt.
 
-Overfull \hbox (33.73921pt too wide) in paragraph at lines 249--249
+Overfull \hbox (33.73921pt too wide) in paragraph at lines 299--299
 [][]  
  []
 
 File: aux/nanoporous.pdf Graphic file (type pdf)
 <use aux/nanoporous.pdf>
-Package pdftex.def Info: aux/nanoporous.pdf  used on input line 249.
+Package pdftex.def Info: aux/nanoporous.pdf  used on input line 299.
 (pdftex.def)             Requested size: 186.6122pt x 141.2841pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 249.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 299.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
-[44
+[56
 
 ]
+\openout4 = `colloquium.vrb'.
+
+ (./colloquium.vrb
+<aux/giotto.png, id=978, 554.07pt x 96.36pt>
+File: aux/giotto.png Graphic file (type png)
+<use aux/giotto.png>
+Package pdftex.def Info: aux/giotto.png  used on input line 3.
+(pdftex.def)             Requested size: 55.41023pt x 9.63655pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-256.
+4.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<aux/giotto.pdf, id=721, 963.6pt x 542.025pt>
-File: aux/giotto.pdf Graphic file (type pdf)
-<use aux/giotto.pdf>
-Package pdftex.def Info: aux/giotto.pdf  used on input line 256.
-(pdftex.def)             Requested size: 298.7129pt x 168.026pt.
+<aux/giotto-tda_workflow.png, id=979, 338.76563pt x 348.55219pt>
+File: aux/giotto-tda_workflow.png Graphic file (type png)
+<use aux/giotto-tda_workflow.png>
+Package pdftex.def Info: aux/giotto-tda_workflow.png  used on input line 7.
+(pdftex.def)             Requested size: 199.86998pt x 205.644pt.
+)
+Overfull \vbox (1.83351pt too high) detected at line 309
+ []
+
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 256.
+(epstopdf)             \includegraphics on input line 309.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 256.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 309.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [45
+[57
 
- <./aux/giotto.pdf>]
-File: aux/giotto.pdf Graphic file (type pdf)
-<use aux/giotto.pdf>
-Package pdftex.def Info: aux/giotto.pdf  used on input line 256.
-(pdftex.def)             Requested size: 298.7129pt x 168.026pt.
+ <./aux/giotto.png> <./aux/giotto-tda_workflow.png>] (./colloquium.vrb
+File: aux/giotto.png Graphic file (type png)
+<use aux/giotto.png>
+Package pdftex.def Info: aux/giotto.png  used on input line 3.
+(pdftex.def)             Requested size: 55.41023pt x 9.63655pt.
+File: aux/giotto-tda_workflow.png Graphic file (type png)
+<use aux/giotto-tda_workflow.png>
+Package pdftex.def Info: aux/giotto-tda_workflow.png  used on input line 7.
+(pdftex.def)             Requested size: 199.86998pt x 205.644pt.
+)
+Overfull \vbox (1.83351pt too high) detected at line 309
+ []
+
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 256.
+(epstopdf)             \includegraphics on input line 309.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 256.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 309.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+[58
 
-[46
-
-]) (./sec/enhanced.tex [47
+]) (./sec/enhanced.tex [59
 
 ]
-<aux/s2_s4.pdf, id=782, 722.7pt x 722.7pt>
+<aux/s2_s4.pdf, id=997, 722.7pt x 722.7pt>
 File: aux/s2_s4.pdf Graphic file (type pdf)
 <use aux/s2_s4.pdf>
 Package pdftex.def Info: aux/s2_s4.pdf  used on input line 39.
@@ -2381,16 +2681,16 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 39.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 39.
-<aux/cp2.pdf, id=783, 722.7pt x 722.7pt>
+<aux/cp2.pdf, id=998, 722.7pt x 722.7pt>
 File: aux/cp2.pdf Graphic file (type pdf)
 <use aux/cp2.pdf>
 Package pdftex.def Info: aux/cp2.pdf  used on input line 39.
 (pdftex.def)             Requested size: 153.95741pt x 153.95491pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2400,7 +2700,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 39.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [48
+ [60
 
  <./aux/s2_s4.pdf> <./aux/cp2.pdf>]
 File: aux/s2_s4.pdf Graphic file (type pdf)
@@ -2412,10 +2712,10 @@ File: aux/cp2.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/cp2.pdf  used on input line 39.
 (pdftex.def)             Requested size: 153.95741pt x 153.95491pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2425,7 +2725,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 39.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [49
+ [61
 
 ]
 File: aux/s2_s4.pdf Graphic file (type pdf)
@@ -2437,10 +2737,10 @@ File: aux/cp2.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/cp2.pdf  used on input line 39.
 (pdftex.def)             Requested size: 153.95741pt x 153.95491pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2451,7 +2751,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 39.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
 
-[50
+[62
 
 ]
 File: aux/s2_s4.pdf Graphic file (type pdf)
@@ -2463,10 +2763,10 @@ File: aux/cp2.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/cp2.pdf  used on input line 39.
 (pdftex.def)             Requested size: 153.95741pt x 153.95491pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2476,7 +2776,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 39.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [51
+ [63
 
 ]
 File: aux/s2_s4.pdf Graphic file (type pdf)
@@ -2488,10 +2788,10 @@ File: aux/cp2.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/cp2.pdf  used on input line 39.
 (pdftex.def)             Requested size: 153.95741pt x 153.95491pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2501,7 +2801,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 39.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [52
+ [64
 
 ]
 File: aux/s2_s4.pdf Graphic file (type pdf)
@@ -2513,10 +2813,10 @@ File: aux/cp2.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/cp2.pdf  used on input line 39.
 (pdftex.def)             Requested size: 153.95741pt x 153.95491pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2526,7 +2826,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 39.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [53
+ [65
 
 ]
 File: aux/s2_s4.pdf Graphic file (type pdf)
@@ -2538,10 +2838,10 @@ File: aux/cp2.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/cp2.pdf  used on input line 39.
 (pdftex.def)             Requested size: 153.95741pt x 153.95491pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2551,19 +2851,19 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 39.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [54
+ [66
 
 ]
-<aux/KB.pdf, id=867, 160.88188pt x 345.83994pt>
+<aux/KB.pdf, id=1082, 160.88188pt x 345.83994pt>
 File: aux/KB.pdf Graphic file (type pdf)
 <use aux/KB.pdf>
 Package pdftex.def Info: aux/KB.pdf  used on input line 56.
 (pdftex.def)             Requested size: 48.26492pt x 103.75278pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2573,7 +2873,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 56.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [55
+ [67
 
  <./aux/KB.pdf>]
 File: aux/KB.pdf Graphic file (type pdf)
@@ -2581,10 +2881,10 @@ File: aux/KB.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/KB.pdf  used on input line 56.
 (pdftex.def)             Requested size: 48.26492pt x 103.75278pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2594,7 +2894,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 56.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [56
+ [68
 
 ]
 File: aux/KB.pdf Graphic file (type pdf)
@@ -2602,10 +2902,10 @@ File: aux/KB.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/KB.pdf  used on input line 56.
 (pdftex.def)             Requested size: 48.26492pt x 103.75278pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2615,7 +2915,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 56.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [57
+ [69
 
 ]
 File: aux/KB.pdf Graphic file (type pdf)
@@ -2623,10 +2923,10 @@ File: aux/KB.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/KB.pdf  used on input line 56.
 (pdftex.def)             Requested size: 48.26492pt x 103.75278pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2636,15 +2936,15 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 56.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [58
+ [70
 
 ]
 (./aux/torus_klein.tex)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2654,14 +2954,14 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 70.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [59
+ [71
 
 ] (./aux/torus_klein.tex)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2671,15 +2971,15 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 70.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [60
+ [72
 
 ]
 (./aux/torus_klein.tex)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2689,14 +2989,14 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 70.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [61
+ [73
 
 ] (./aux/torus_klein.tex)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2706,19 +3006,19 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 70.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [62
+ [74
 
 ]
-<aux/comp_sus_rp2.pdf, id=1918, 636.28964pt x 333.19167pt>
+<aux/comp_sus_rp2.pdf, id=2133, 636.28964pt x 333.19167pt>
 File: aux/comp_sus_rp2.pdf Graphic file (type pdf)
 <use aux/comp_sus_rp2.pdf>
 Package pdftex.def Info: aux/comp_sus_rp2.pdf  used on input line 82.
 (pdftex.def)             Requested size: 314.1953pt x 164.5262pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2728,7 +3028,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 82.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [63
+ [75
 
  <./aux/comp_sus_rp2.pdf>]
 File: aux/comp_sus_rp2.pdf Graphic file (type pdf)
@@ -2736,10 +3036,10 @@ File: aux/comp_sus_rp2.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/comp_sus_rp2.pdf  used on input line 82.
 (pdftex.def)             Requested size: 314.1953pt x 164.5262pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2749,7 +3049,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 82.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [64
+ [76
 
 ]
 File: aux/comp_sus_rp2.pdf Graphic file (type pdf)
@@ -2757,10 +3057,10 @@ File: aux/comp_sus_rp2.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/comp_sus_rp2.pdf  used on input line 82.
 (pdftex.def)             Requested size: 314.1953pt x 164.5262pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2770,17 +3070,17 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 82.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [65
+ [77
 
 ]
 \openout4 = `colloquium.vrb'.
 
  (./colloquium.vrb)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2791,14 +3091,14 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 110.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [66
+ [78
 
 ] (./colloquium.vrb)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2809,15 +3109,15 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 110.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [67
+ [79
 
 ]
 (./colloquium.vrb)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2828,14 +3128,14 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 110.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [68
+ [80
 
 ] (./colloquium.vrb)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2846,14 +3146,14 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 110.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [69
+ [81
 
 ] (./colloquium.vrb)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2864,15 +3164,15 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 110.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [70
+ [82
 
 ]
 (./colloquium.vrb)
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2883,15 +3183,15 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 110.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [71
+ [83
 
 ]
-<aux/umberto.jpeg, id=2008, 461.725pt x 461.725pt>
+<aux/umberto.jpeg, id=2223, 461.725pt x 461.725pt>
 File: aux/umberto.jpeg Graphic file (type jpg)
 <use aux/umberto.jpeg>
 Package pdftex.def Info: aux/umberto.jpeg  used on input line 131.
 (pdftex.def)             Requested size: 46.1752pt x 46.1752pt.
-<aux/guillaume.png, id=2009, 461.725pt x 461.725pt>
+<aux/guillaume.png, id=2224, 461.725pt x 461.725pt>
 File: aux/guillaume.png Graphic file (type png)
 <use aux/guillaume.png>
 Package pdftex.def Info: aux/guillaume.png  used on input line 131.
@@ -2899,16 +3199,15 @@ Package pdftex.def Info: aux/guillaume.png  used on input line 131.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
 (Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 131.
 
-<aux/giotto.png, id=2010, 554.07pt x 96.36pt>
 File: aux/giotto.png Graphic file (type png)
 <use aux/giotto.png>
 Package pdftex.def Info: aux/giotto.png  used on input line 131.
 (pdftex.def)             Requested size: 55.41023pt x 9.63655pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2919,9 +3218,9 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 131.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [72
+ [84
 
- <./aux/umberto.jpeg> <./aux/guillaume.png (PNG copy)> <./aux/giotto.png>]
+ <./aux/umberto.jpeg> <./aux/guillaume.png (PNG copy)>]
 File: aux/umberto.jpeg Graphic file (type jpg)
 <use aux/umberto.jpeg>
 Package pdftex.def Info: aux/umberto.jpeg  used on input line 131.
@@ -2935,10 +3234,10 @@ File: aux/giotto.png Graphic file (type png)
 Package pdftex.def Info: aux/giotto.png  used on input line 131.
 (pdftex.def)             Requested size: 55.41023pt x 9.63655pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2949,7 +3248,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 131.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [73
+ [85
 
 ]
 File: aux/umberto.jpeg Graphic file (type jpg)
@@ -2965,10 +3264,10 @@ File: aux/giotto.png Graphic file (type png)
 Package pdftex.def Info: aux/giotto.png  used on input line 131.
 (pdftex.def)             Requested size: 55.41023pt x 9.63655pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -2979,15 +3278,15 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 131.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [74
+ [86
 
 ]
-<aux/molecule_top.pdf, id=2034, 1156.32pt x 320.8788pt>
+<aux/molecule_top.pdf, id=2247, 1156.32pt x 320.8788pt>
 File: aux/molecule_top.pdf Graphic file (type pdf)
 <use aux/molecule_top.pdf>
 Package pdftex.def Info: aux/molecule_top.pdf  used on input line 167.
 (pdftex.def)             Requested size: 314.1953pt x 87.1868pt.
-<aux/molecule_bot.pdf, id=2035, 1156.32pt x 189.3474pt>
+<aux/molecule_bot.pdf, id=2248, 1156.32pt x 189.3474pt>
 File: aux/molecule_bot.pdf Graphic file (type pdf)
 <use aux/molecule_bot.pdf>
 Package pdftex.def Info: aux/molecule_bot.pdf  used on input line 167.
@@ -2995,10 +3294,10 @@ Package pdftex.def Info: aux/molecule_bot.pdf  used on input line 167.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <14.4> on input line 167.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -3009,7 +3308,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 167.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [75
+ [87
 
  <./aux/molecule_top.pdf> <./aux/molecule_bot.pdf
 
@@ -3025,10 +3324,10 @@ File: aux/molecule_bot.pdf Graphic file (type pdf)
 Package pdftex.def Info: aux/molecule_bot.pdf  used on input line 167.
 (pdftex.def)             Requested size: 314.1953pt x 51.44806pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -3038,576 +3337,675 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 167.
 
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [76
-
-]
-File: aux/molecule_top.pdf Graphic file (type pdf)
-<use aux/molecule_top.pdf>
-Package pdftex.def Info: aux/molecule_top.pdf  used on input line 167.
-(pdftex.def)             Requested size: 314.1953pt x 87.1868pt.
-File: aux/molecule_bot.pdf Graphic file (type pdf)
-<use aux/molecule_bot.pdf>
-Package pdftex.def Info: aux/molecule_bot.pdf  used on input line 167.
-(pdftex.def)             Requested size: 314.1953pt x 51.44806pt.
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 167.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 167.
-
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [77
-
-]
-File: aux/molecule_top.pdf Graphic file (type pdf)
-<use aux/molecule_top.pdf>
-Package pdftex.def Info: aux/molecule_top.pdf  used on input line 167.
-(pdftex.def)             Requested size: 314.1953pt x 87.1868pt.
-File: aux/molecule_bot.pdf Graphic file (type pdf)
-<use aux/molecule_bot.pdf>
-Package pdftex.def Info: aux/molecule_bot.pdf  used on input line 167.
-(pdftex.def)             Requested size: 314.1953pt x 51.44806pt.
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 167.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 167.
-
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [78
-
-]
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 187.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 187.
-
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [79
-
-]
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 187.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 187.
-
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [80
-
-]) (./sec/hyperharmonic.tex [81
-
-]
-<aux/fishes.jpg, id=2115, 1204.5pt x 672.5125pt>
-File: aux/fishes.jpg Graphic file (type jpg)
-<use aux/fishes.jpg>
-Package pdftex.def Info: aux/fishes.jpg  used on input line 21.
-(pdftex.def)             Requested size: 277.02917pt x 154.67462pt.
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 21.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 21.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [82
-
- <./aux/fishes.jpg>]
-File: aux/fishes.jpg Graphic file (type jpg)
-<use aux/fishes.jpg>
-Package pdftex.def Info: aux/fishes.jpg  used on input line 21.
-(pdftex.def)             Requested size: 277.02917pt x 154.67462pt.
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 21.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 21.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [83
-
-]
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 52.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 52.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [84
-
-]
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 52.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 52.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [85
-
-]
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 52.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 52.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [86
-
-]
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 52.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 52.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [87
-
-]
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 52.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 52.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [88
 
 ]
+File: aux/molecule_top.pdf Graphic file (type pdf)
+<use aux/molecule_top.pdf>
+Package pdftex.def Info: aux/molecule_top.pdf  used on input line 167.
+(pdftex.def)             Requested size: 314.1953pt x 87.1868pt.
+File: aux/molecule_bot.pdf Graphic file (type pdf)
+<use aux/molecule_bot.pdf>
+Package pdftex.def Info: aux/molecule_bot.pdf  used on input line 167.
+(pdftex.def)             Requested size: 314.1953pt x 51.44806pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 52.
+(epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 52.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 167.
+
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [89
 
 ]
+File: aux/molecule_top.pdf Graphic file (type pdf)
+<use aux/molecule_top.pdf>
+Package pdftex.def Info: aux/molecule_top.pdf  used on input line 167.
+(pdftex.def)             Requested size: 314.1953pt x 87.1868pt.
+File: aux/molecule_bot.pdf Graphic file (type pdf)
+<use aux/molecule_bot.pdf>
+Package pdftex.def Info: aux/molecule_bot.pdf  used on input line 167.
+(pdftex.def)             Requested size: 314.1953pt x 51.44806pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 52.
+(epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 52.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 167.
+
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [90
 
 ]
-<aux/3simplex.png, id=2164, 293.095pt x 293.095pt>
-File: aux/3simplex.png Graphic file (type png)
-<use aux/3simplex.png>
-Package pdftex.def Info: aux/3simplex.png  used on input line 76.
-(pdftex.def)             Requested size: 102.58478pt x 102.58478pt.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 76.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 76.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 187.
+
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [91
 
- <./aux/3simplex.png>]
-File: aux/3simplex.png Graphic file (type png)
-<use aux/3simplex.png>
-Package pdftex.def Info: aux/3simplex.png  used on input line 76.
-(pdftex.def)             Requested size: 102.58478pt x 102.58478pt.
+]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 76.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 76.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 187.
+
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [92
 
-]
-File: aux/3simplex.png Graphic file (type png)
-<use aux/3simplex.png>
-Package pdftex.def Info: aux/3simplex.png  used on input line 76.
-(pdftex.def)             Requested size: 102.58478pt x 102.58478pt.
-Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
-(epstopdf)                    size: 690290 bytes
-(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
-(epstopdf)                    size: 35768 bytes
-(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
-pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 76.
-Package epstopdf Info: Output file is already uptodate.
-File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
-<use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 76.
-(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
-
-[93
+]) (./sec/hyperharmonic.tex [93
 
 ]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
-
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 41.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [94
 
 ]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
-
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 41.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [95
 
 ]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
-
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 41.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [96
 
 ]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
-
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 41.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [97
+
+[97
 
 ]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
-
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 41.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [98
 
 ]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
-
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 65.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [99
 
 ]
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 105.
-
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 65.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
  [100
 
 ]
-<aux/hyperharmonic.png, id=2218, 3685.77pt x 2032.59375pt>
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 65.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [101
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 65.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [102
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 65.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [103
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 65.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [104
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 98.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [105
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 98.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [106
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 98.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [107
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 98.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [108
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 98.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [109
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 98.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+
+[110
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 98.
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [111
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 121.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [112
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 121.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [113
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 121.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [114
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 121.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [115
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 121.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [116
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 121.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [117
+
+]
+<aux/hyperharmonic.png, id=2454, 3685.77pt x 2032.59375pt>
 File: aux/hyperharmonic.png Graphic file (type png)
 <use aux/hyperharmonic.png>
-Package pdftex.def Info: aux/hyperharmonic.png  used on input line 117.
+Package pdftex.def Info: aux/hyperharmonic.png  used on input line 133.
 (pdftex.def)             Requested size: 353.8074pt x 195.11438pt.
 
-Overfull \hbox (26.83432pt too wide) in paragraph at lines 117--117
+Overfull \hbox (26.83432pt too wide) in paragraph at lines 133--133
 []|  []  
  []
 
 
-Overfull \vbox (4.02234pt too high) detected at line 117
+Overfull \vbox (4.02234pt too high) detected at line 133
  []
 
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 117.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 133.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
-[101
+[118
 
  <./aux/hyperharmonic.png>]
 File: aux/hyperharmonic.png Graphic file (type png)
 <use aux/hyperharmonic.png>
-Package pdftex.def Info: aux/hyperharmonic.png  used on input line 117.
+Package pdftex.def Info: aux/hyperharmonic.png  used on input line 133.
 (pdftex.def)             Requested size: 353.8074pt x 195.11438pt.
 
-Overfull \hbox (26.83432pt too wide) in paragraph at lines 117--117
+Overfull \hbox (26.83432pt too wide) in paragraph at lines 133--133
 []|  []  
  []
 
 
-Overfull \vbox (4.02234pt too high) detected at line 117
+Overfull \vbox (4.02234pt too high) detected at line 133
  []
 
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 117.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 133.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
-[102
+[119
 
 ]
 File: aux/hyperharmonic.png Graphic file (type png)
 <use aux/hyperharmonic.png>
-Package pdftex.def Info: aux/hyperharmonic.png  used on input line 117.
+Package pdftex.def Info: aux/hyperharmonic.png  used on input line 133.
 (pdftex.def)             Requested size: 353.8074pt x 195.11438pt.
 
-Overfull \hbox (26.83432pt too wide) in paragraph at lines 117--117
+Overfull \hbox (26.83432pt too wide) in paragraph at lines 133--133
 []|  []  
  []
 
 
-Overfull \vbox (4.02234pt too high) detected at line 117
+Overfull \vbox (4.02234pt too high) detected at line 133
  []
 
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 117.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 133.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
-[103
+[120
 
 ]
 File: aux/hyperharmonic.png Graphic file (type png)
 <use aux/hyperharmonic.png>
-Package pdftex.def Info: aux/hyperharmonic.png  used on input line 117.
+Package pdftex.def Info: aux/hyperharmonic.png  used on input line 133.
 (pdftex.def)             Requested size: 353.8074pt x 195.11438pt.
 
-Overfull \hbox (26.83432pt too wide) in paragraph at lines 117--117
+Overfull \hbox (26.83432pt too wide) in paragraph at lines 133--133
 []|  []  
  []
 
 
-Overfull \vbox (4.02234pt too high) detected at line 117
+Overfull \vbox (4.02234pt too high) detected at line 133
  []
 
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
-(epstopdf)             \includegraphics on input line 117.
+(epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
-Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 117.
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 133.
 
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
-[104
+[121
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 149.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 149.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [122
+
+]
+Package epstopdf Info: Source file: <aux/logo.eps>
+(epstopdf)                    date: 2023-09-24 17:29:11
+(epstopdf)                    size: 690290 bytes
+(epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-02-20 14:59:20
+(epstopdf)                    size: 35768 bytes
+(epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
+pdf aux/logo.eps>
+(epstopdf)             \includegraphics on input line 149.
+Package epstopdf Info: Output file is already uptodate.
+File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
+<use aux/logo-eps-converted-to.pdf>
+Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 149.
+
+(pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
+ [123
 
 ]) (./sec/lastpage.tex
 \c@blx@maxsegment@1=\count481
@@ -3616,10 +4014,10 @@ Package biblatex Info: Reference section=1 on input line 17.
 Package biblatex Info: Setting label 'refsection:1' on input line 17.
 Package biblatex Info: Reference section=0 on input line 17.
 Package epstopdf Info: Source file: <aux/logo.eps>
-(epstopdf)                    date: 2023-09-24 16:29:11
+(epstopdf)                    date: 2023-09-24 17:29:11
 (epstopdf)                    size: 690290 bytes
 (epstopdf)             Output file: <aux/logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-02-20 12:59:20
+(epstopdf)                    date: 2024-02-20 14:59:20
 (epstopdf)                    size: 35768 bytes
 (epstopdf)             Command: <repstopdf --outfile=aux/logo-eps-converted-to.
 pdf aux/logo.eps>
@@ -3629,7 +4027,7 @@ File: aux/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use aux/logo-eps-converted-to.pdf>
 Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 17.
 (pdftex.def)             Requested size: 18.73701pt x 19.91684pt.
- [105
+ [124
 
 ])
 \tf@nav=\write7
@@ -3642,27 +4040,35 @@ Package pdftex.def Info: aux/logo-eps-converted-to.pdf  used on input line 17.
 \openout9 = `colloquium.snm'.
 
  (./colloquium.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `colloquium.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                colloquium
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'colloquium.run.xml'.
 \openout1 = `colloquium.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36370 strings out of 478287
- 736709 string characters out of 5849289
- 1366953 words of memory out of 5000000
- 53610 multiletter control sequences out of 15000+600000
- 525587 words of font info for 79 fonts, out of 8000000 for 9000
+ 36407 strings out of 478287
+ 737105 string characters out of 5849289
+ 1366584 words of memory out of 5000000
+ 53605 multiletter control sequences out of 15000+600000
+ 522855 words of font info for 78 fonts, out of 8000000 for 9000
  1150 hyphenation exceptions out of 8191
- 128i,16n,122p,773b,1331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,16n,122p,743b,1331s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{https.github.com/Steenroder/steenroder.com} has b
 een referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/
-dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rmtt.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathex.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bbold-type1/bbold7.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/
@@ -3683,10 +4089,10 @@ m/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on colloquium.pdf (105 pages, 6662148 bytes).
+Output written on colloquium.pdf (124 pages, 6101048 bytes).
 PDF statistics:
- 2427 PDF objects out of 2487 (max. 8388607)
- 1641 compressed objects within 17 object streams
- 223 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2681 PDF objects out of 2984 (max. 8388607)
+ 1839 compressed objects within 19 object streams
+ 261 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
